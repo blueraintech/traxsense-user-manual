@@ -1,0 +1,97 @@
+site_name: Traxsense User Manual
+
+theme:
+  name: material
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    # - toc.follow
+    - toc.integrate
+
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+nav:
+  - Traxsense: index.md
+  - Getting Started:
+      - "Quick Start": gettingStarted.md
+      - "Book a Demo": bookDemo.md
+  - User Manual:
+      - "Logging In/Out": user_manual/loggingInOut.md
+      - "Dashboard": user_manual/dashboard.md
+      - "Item Tracking": user_manual/itemTracking.md
+      - "Alerts": user_manual/alerts.md
+      - "Incidents": user_manual/incidents.md
+      - "Locations": user_manual/locations.md
+      - "Geofence": user_manual/geofence.md
+      - "Items": user_manual/items.md
+      - "Actions": user_manual/actions.md
+      - "Devices": user_manual/devices.md
+      - "Tasks": user_manual/tasks.md
+      - "Types": user_manual/types.md
+      - "Vehicles": user_manual/vehicles.md
+      - "Sensors": user_manual/sensors.md
+      - "Routes": user_manual/routes.md
+      - "Vehicle Routes": user_manual/vehicleRoutes.md
+      - "Reports": user_manual/reports.md
+      - "Users": user_manual/users.md
+      - "Roles": user_manual/roles.md
+      - "Permissions": user_manual/permissions.md
+      - "Administration": user_manual/administration.md
+      - "Organizations": user_manual/organizations.md
+      - "EventBridge": user_manual/eventBridge.md
+      - "Flows": user_manual/flows.md
+      - "Rule Engine": user_manual/ruleEngine.md
+      - "Updates": user_manual/updates.md
+    # - 'About': user_manual/about.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - md_in_html

@@ -40,7 +40,7 @@ To run the development server, run the command
 `mk serve`
 
 ## Documentation Links
-The documentation for MKDocs Material can be found here: https://squidfunk.github.io/mkdocs-material/setup/
+The documentation for MKDocs Material can be found here: https://squidfunk.github.io/mkdocs-material/reference/
 
 The base MKDocs theme and its documentation can be found here: https://www.mkdocs.org/user-guide/
 

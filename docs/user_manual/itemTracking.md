@@ -1,64 +1,48 @@
-The Item Tracking portal tab allows the user to view specific items associated with staff like laptops, etc when passing through a RFID monitored portal/area.
+## Personnel Portal Page
 
-![Alt text](../assets/images/itemtracking/Traxsense-Item-Menu-Tab.png)
+The Personnel Portal Page offers the functionality to scan for items and display data related to the scanned items at a specific location portal.
 
-## Personnel Portal
+### Start/Restart Scanner button
 
-A user can track the items issued or linked to a user through a RFID portal.
+To scan for items, follow these steps on the Personnel Portal Page:
 
-From the Item Tracking menu select the Personnel Portal, the following screen will be displayed:
+1. Select the location of a reader.
+   ![Alt text](../assets/images/itemtracking/Personnel_Tracking_Portal_Dropdown.png)
 
-![Alt text](../assets/images/itemtracking/Traxsense-Personnel-Tracking-Portal.png)
+2. Click on the Start/Restart Scanner button.
+   ![Alt text](../assets/images/itemtracking/Personnel_Tracking_Portal_Reader_Selected.png)
 
-Select the location from the dropdown menu
+3. The system will initiate the scanning process in the selected location and assign the scanned item to an employee ID if assigned. Otherwise, it will be categorized as 'notAssigned'.
 
-![Alt text](../assets/images/itemtracking/Traxsense-Personnel-Tracking-Portal-Dropdown-Expanded.png)
+## Portal Viewer Page
 
-Next select the Reader/Portal from the dropdown menu.
+The Portal Viewer Page enables users to search for items and perform real-time scanning, with new scanned items added to the displayed list.
 
-![Alt text](../assets/images/itemtracking/Traxsense-Personnel-Tracking-Portal-Dropdown-Expanded-Reader-Selected.png)
+### Start/Restart Scanner button
 
-A “Waiting for Tags” message will be displayed.
+To scan for items, follow these steps on the Portal Viewer Page:
 
-When the reader reads the RFID tags present, both the user tag and the item tag, the tagged item details are displayed in green if the item is registered to the particular user, if the user tag is not present or the item is not registered/issued to the user then the tagged item details are displayed in red.
+1. Select the location of a reader.
+   ![Alt text](../assets/images/itemtracking/Portal_Viewer_Dropdown.png)
 
-## Portal Viewer
+2. Click on the Start/Restart Scanner button.
+   ![Alt text](../assets/images/itemtracking/Portal_Viewer_Location_Selected.png)
 
-The Portal Viewer allows a user to control a RFID portal by turning it on or off and view the items passing through a specific RFID portal in real time.
+3. The system will initiate the scanning process in the selected location and display the scanned items in a data table.
 
-From the Item Tracking menu select the Portal Viewer, the following screen will be displayed:
+## Portal Monitoring Page
 
-![Alt text](../assets/images/itemtracking/Traxsense-Item-Tracking-Portal.png)
+The Portal Monitoring Page allows users to monitor portals and search for specific items associated with those portals.
 
-Select the portal from the dropdown menu
+### Location dropdown
 
-![Alt text](../assets/images/itemtracking/Traxsense-Item-Tracking-Portal-Dropdown-Expanded.png)
+To utilize the monitoring feature, follow these steps on the Portal Monitoring Page:
 
-Click on the ![Alt text](../assets/images/itemtracking/Traxsense-Start-Scanning-Button.png) button to start the RFID reader
+1. Select a portal from the location dropdown.
+   ![Alt text](../assets/images/itemtracking/Traxsense-Portal-Monitoring-Dropdown-Expanded.png)
 
-![Alt text](../assets/images/itemtracking/Traxsense-Scanned-Items.png)
-The RFID portal reads the tagged items and displays the information on the screen. The information displayed is:
+2. The page will load and refresh a DataTable, displaying items present at the selected portal.
+   ![Alt text](../assets/images/itemtracking/Traxsense-Portal-Monitoring-On-Selected-Dropdown.png)
 
-- Total number of items read
-- Number of items per item type
-- Detailed list of all items
-
-To stop the portal scanning, select the ![Alt text](../assets/images/itemtracking/Traxsense-Stop-Scanning-Button.png) button.
-
-To reset the portal, select the ![Alt text](../assets/images/itemtracking/Traxsense-Restart-Scanning-Button.png) button.
-
-## Portal Monitoring
-
-The Portal Monitoring allows an user to view all RFID tags read at a selected location/reader.
-
-From the Item Tracking menu select the Portal Viewer, the following screen will be displayed:
-![Alt text](../assets/images/itemtracking/Traxsense-Portal-Monitoring.png)
-
-Select a location from the dropdown menu
-![Alt text](../assets/images/itemtracking/Traxsense-Portal-Monitoring-Dropdown-Expanded.png)
-
-All RFID tagged items read at the location/reader are displayed.
-![Alt text](../assets/images/itemtracking/Traxsense-Portal-Monitoring-On-Selected-Dropdown.png)
-
-To view the details of the item, select the item barcode, the item details and history are displayed.
-![Alt text](../assets/images/items/Traxsense-Item-History.png)
+3. Users can also search for specific items using available search functionalities.
+4. Based on user permissions and item selections, users can navigate to the item history page for more detailed information.

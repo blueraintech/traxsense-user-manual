@@ -1,10 +1,8 @@
-The Item tab displays all the item information in the database and allows a user to [view](#overview), [add](#add-items) a new item whether individually or in bulk, [edit](#edit-an-item) or [delete](#delete-an-item) existing items.
+The Items Page provides a visual representation of items along with their associated properties. Users can manage items, add new items, edit existing items, delete items, import items using CSV files, download item import templates, and perform automatic registration of multiple items.
 
-![Alt text](../assets/images/items/Traxsense-Item-Tab.png)
+## View Items
 
-## Overview
-
-The **Item Management** page gives a view of all the items in the system filtered depending on the organization the items belong to and offers access to [view](#view-an-item-and-its-history) and [add](#add-items) items can be customized by clicking on the Columns button which will display the following pop up:
+The Item Management page gives a view of all the items in the system filtered depending on the organization the items belong to and offers access to [view](#view-an-item-and-its-history) and [add](#add-items) items can be customized by clicking on the Columns button which will display the following pop up:
 
 ![Alt text](../assets/images/items/Traxsense-Items-Management.png)
 

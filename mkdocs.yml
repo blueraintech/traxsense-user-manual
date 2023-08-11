@@ -49,6 +49,7 @@ nav:
   - Getting Started:
       - "Quick Start": gettingStarted.md
       - "Book a Demo": bookDemo.md
+      - "Recruitment": recruitment.md
   - User Manual:
       - "Logging In/Out": user_manual/loggingInOut.md
       - "Dashboard": user_manual/dashboard.md
@@ -84,6 +85,9 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - admonition
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.arithmatex:
       generic: true
   - footnotes
@@ -95,3 +99,8 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - md_in_html
+
+extra_javascript:
+  - mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js

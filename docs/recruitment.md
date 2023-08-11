@@ -89,4 +89,7 @@ X : Start
 
 ## Bonus Points
 
-If NASA
+NASA want to send any number of rovers to a plateau of any size with the same functionality.
+Make the above solution scaleable to the Nth degree.
+
+This is optional, but you know what that means. ;)

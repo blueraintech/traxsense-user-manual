@@ -14,7 +14,7 @@ The Settings Page provides various configuration options for the system.
 
 Advanced settings are configured by developers or administrators with knowledge of the system. These settings may include integration configurations and other advanced options specific to the system implementation.
 
-![Alt text](../assets/images/administration/image-1.png)
+![Alt text](../assets/images/administration/image.png)
 
 ### Email Settings
 

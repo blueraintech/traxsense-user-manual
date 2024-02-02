@@ -1,3 +1,9 @@
+---
+runme:
+  id: 01HNMBYFV3QQW95RZ25E56ZMG1
+  version: v2.2
+---
+
 ## Settings Page
 
 The Settings Page provides various configuration options for the system.
@@ -42,3 +48,21 @@ To edit mobile reader settings, follow these steps:
 2. Edit the desired settings.
 3. Click the "Save" button to save the mobile reader settings.
    ![Alt text](../assets/images/administration/image-5.png)
+
+### Mqtt Settings
+
+To edit mqtt settings, follow these steps:
+
+1. On the Settings Page, locate the "Mqtt Settings" section.
+2. Edit the desired settings.
+3. Click the "Save" button to save the mqtt settings.
+   ![Alt text](../assets/images/administration/image-6.png)
+
+### Security Settings
+
+To edit security settings, follow these steps:
+
+1. On the Settings Page, locate the "Security Settings" section.
+2. Edit the desired settings.
+3. Click the "Save" button to save the security settings.
+   ![Alt text](../assets/images/administration/image-7.png)

@@ -1,9 +1,3 @@
----
-runme:
-  id: 01HNMBYFV3QQW95RZ25E56ZMG1
-  version: v2.2
----
-
 ## Settings Page
 
 The Settings Page provides various configuration options for the system.

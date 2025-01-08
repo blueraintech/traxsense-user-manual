@@ -9,6 +9,7 @@ To add a new rule, follow these steps:
 1. On the Rule Engine Page, click the "Add Rule" button.
 2. Fill in the required information:
    - Add Rule Name, Trigger Type.
+   - Choose to either activate the rule or not.
 3. Click the "Trigger Addition" button.
 4. Add conditions by providing Condition Name, Condition Type, and Condition Metadata.
 5. Add actions by providing Action Name, Action Type, and Action Metadata.
@@ -28,6 +29,12 @@ To edit an existing rule, follow these steps:
    - Change Condition Name, Condition Type, Condition Metadata by clicking on the Condition section.
    - Change Action Name, Action Type, Action Metadata by clicking on the Action section.
 5. Click the "Save" button to save the changes.
+6. Active Rule create transaction log when executed.
+   - Each transaction log has the following details:
+      - Transaction Log ID.
+      - Description: Either 'Completed sucsseful' or the list of actions that failed.
+      - Rule Fiered: Indating that all actions were executed.
+      - Fired On: The date and time of execution
 
 ![Alt text](../assets/images/ruleEngine/image-2.png)
 

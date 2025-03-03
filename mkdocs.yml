@@ -76,7 +76,9 @@ nav:
       - "Flow Types": user_manual/flowTypes.md
       - "Rule Engine": user_manual/ruleEngine.md
       - "Updates": user_manual/updates.md
-
+  - Updates:
+      - "Updates" : user_manual/updates.md
+      
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true

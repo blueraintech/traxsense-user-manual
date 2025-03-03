@@ -1,6 +1,8 @@
-Version: 1.0.6549
-Build date: 03/03/2025
-## Overview
+ **Version: 1.0.6549**
+ **Build date: 03/03/2025**
+## Release_1.0.6549 
+
+#### Overview
 This release brings several updates and enhancements focused on improving system control, user interface, and performance. It includes new features like rule tracking, toggles for easier management, and UI updates for a more seamless experience. Bug fixes address various issues to ensure stability and functionality. Below is a summary of the changes.
 
 #### Features and Enhancements

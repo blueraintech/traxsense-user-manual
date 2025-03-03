@@ -77,8 +77,8 @@ nav:
       - "Rule Engine": user_manual/ruleEngine.md
       - "Updates": user_manual/updates.md
   - Updates:
-      - "Updates" : user_manual/updates.md
-      
+      - "Releases" : Releases/1.0.6549.md
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true

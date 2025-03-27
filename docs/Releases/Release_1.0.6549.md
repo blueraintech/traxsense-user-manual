@@ -11,7 +11,7 @@ This release brings several updates and enhancements focused on improving system
 - Added toggles to activate or deactivate rule triggers for better control.
 - Improved the Portal Monitor and Vehicle Management pages with features like "Last Seen" tracking and larger map views.
 - Simplified route creation and editing with enhanced navigation and functionality.
-##### Bug Fixes
+#### Bug Fixes
 - Fixed an issue where vehicle events were processed incorrectly under certain conditions.
 - Resolved problems with data processing to ensure actions and rules work consistently.
 - Improved naming and display consistency across the system.

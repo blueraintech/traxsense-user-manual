@@ -78,6 +78,7 @@ nav:
       - "Updates": user_manual/updates.md
   - Updates:
       - "Releases" : Releases/Overview.md
+      - "Release_1.0.6623" : Releases/Release_1.0.6623.md
       - "Release_1.0.6549" : Releases/Release_1.0.6549.md
 
 markdown_extensions:

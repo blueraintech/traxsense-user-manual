@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Releases/Overview.md",
+                "file": "docs/bookDemo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Overview"
+              "title": "bookDemo"
             }
           }
         ],
@@ -175,6 +175,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -185,11 +186,16 @@
   },
   "active": "9ce4b193db8abfe9",
   "lastOpenFiles": [
+    "docs/gettingStarted.md",
+    "docs/bookDemo.md",
+    "docs/index.md",
+    "docs/recruitment.md",
+    "docs/user_manual/actions.md",
+    "docs/Releases/Release_1.0.6848.md",
     "docs/Releases/Release_1.0.6623.md",
     "docs/Releases/Release_1.0.6549.md",
-    "docs/Releases/Release_1.0.6600.md",
-    "docs/gettingStarted.md",
     "docs/Releases/Overview.md",
+    "docs/Releases/Release_1.0.6600.md",
     "README.md",
     "Release_1.0.6549.md",
     "docs/user_manual/updates.md",

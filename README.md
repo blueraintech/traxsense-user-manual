@@ -45,3 +45,38 @@ The documentation for MKDocs Material can be found here: https://squidfunk.githu
 The base MKDocs theme and its documentation can be found here: https://www.mkdocs.org/user-guide/
 
 To deploy onto DigitalOcean, we can follow this link https://www.starfallprojects.co.uk/projects/deploy-host-docs/deploy-mkdocs-material-digitalocean-app-platform/#prerequisites
+
+
+
+**Version: 1.0.6916**  
+**Build date: 01/10/2025**  
+## Release_1.0.6916
+
+# **Release Notes: Traxsense 2025 Q3.1**
+
+---
+
+## **Overview**  
+
+
+---
+
+## **Features**  
+- 
+- 
+
+---
+
+## **Fixes**  
+- 
+- 
+
+---
+
+## **Improvements**
+- 
+- 
+
+---
+
+**Thank you for using Traxsense. We are committed to continuous improvement and delivering a reliable, user-friendly experience. For feedback or support, please contact our team.**

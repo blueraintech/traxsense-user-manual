@@ -1,0 +1,272 @@
+  body {
+    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    height: 500px;
+    flex-direction: column;
+  }
+
+  .carousel__nav {
+    padding: 1.25rem 0.5rem;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .carousel__nav .slider-nav {
+    margin: 0 5px;
+  }
+
+  .carousel__skip-link {
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    top: auto;
+    width: 1px;
+  }
+
+  .carousel__skip-link:focus {
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    font-size: 30px;
+    height: 680px;
+    justify-content: center;
+    opacity: 0.8;
+    text-decoration: none;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .slides {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    flex-grow: 1;
+  }
+
+  .slides::-webkit-scrollbar {
+    display: none;
+  }
+
+  .slider-nav {
+    align-items: center;
+    background-color: #ddd;
+    border-radius: 50%;
+    color: #000;
+    display: inline-flex;
+    height: 1.5rem;
+    justify-content: center;
+    padding: 0.5rem;
+    position: relative;
+    text-decoration: none;
+    width: 1.5rem;
+  }
+
+  .slider-nav:hover,
+  .slider-nav:active {
+    background-color: #000;
+    color: #fff;
+  }
+
+  .slider-nav[title]::after {
+    content: none !important;
+  }
+
+  .slides-item {
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-shrink: 0;
+    font-size: 100px;
+    justify-content: center;
+    margin: 0 1rem;
+    position: relative;
+    scroll-snap-align: start;
+    transform: scale(1);
+    transform-origin: center center;
+    transition: transform 0.5s;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+  }
+
+  .slides-item h2 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+
+  .slides-item p {
+    margin-top: 10px;
+  }
+
+  .slide-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding-top: 40px;
+  }
+
+  .slide-content img {
+    max-width: 100%;
+    max-height: 70%;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+
+  .slide-text {
+    flex-grow: 1;
+    text-align: center;
+  }
+
+
+  .slide-text h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .slide-text p {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  a[href]:hover::after {
+    content: none !important;
+  }
+
+  .active-button {
+    background-color: #000;
+    color: #fff;
+  }
+
+  .productSquaresContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+
+  .productSquares {
+    padding: 1em;
+    margin: 0.5em;
+    max-width: 300px;
+    text-align: center;
+    word-wrap: break-word;
+    border: none;
+    transition: border 0.3s, transform 0.3s;
+    transform: scale(1);
+  }
+
+  .productSquares:hover {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    transform: scale(1.02);
+  }
+
+  .productSquaresTitle {
+    margin: 0;
+  }
+
+  .productSquaresDescription {
+    margin-top: 10px;
+  }
+
+  .productSquaresButton {
+    display: inline-block;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    background-color: transparent;
+    color: #ccc;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .productSquares:hover .productSquaresButton {
+    background-color: #ccc;
+    color: #fff;
+  }
+
+  #chapters {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .accordion-item {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .accordion-button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+  }
+
+  .accordion-body {
+    padding: 10px;
+    display: none;
+  }
+
+  .accordion-body p {
+    margin: 0;
+  }
+
+  .show {
+    display: block;
+  }
+
+  .image-resize {
+    max-width: 100%;
+    max-height: 600px;
+    display: block;
+    /* Add this line to make the image a block-level element */
+    margin: 0 auto;
+    /* Add this line to center the image horizontally */
+  }
